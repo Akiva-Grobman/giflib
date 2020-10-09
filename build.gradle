@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'com.akivaGrobman'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.2.9.RELEASE'
+}
